@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="header ">
+        <nav class="navbar navbar-expand-lg navbar-light p-3 ">
+
+            <div class="container-fluid">
+                <div class="box">
+                    <i class="fa-solid fa-plane  "></i>
+                    <a class="navbar-brand" href="#">Travel planner</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav text-white">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="./destionations.html">Destinations</a>
+                        <a class="nav-link" href="#">My Trips </a>
+                        <a class="nav-link " href="./favorites.html" tabindex="-1" aria-disabled="true">Favorites</a>
+                    </div>
+                </div>
+
+            </div>
+            <button class="btn btn-outline-light mx-5 d-flex " id="Register">
+                <i class="fa-solid fa-user my-1 mx-1"></i>
+                Login/Register
+            </button>
+        </nav>
+    </div>
+    <main>
+        <div class="box_image d-flex justify-content-center align-items-center ">
+            <div class="box_dat text-white ">
+                <box class="icon d-flex text-">
+                    <i class="fa-solid fa-globe fs-2 my-2 px-2"></i>
+                    <h1>Plan Your Dream Vacation</h1>
+                </box>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, placeat!</p>
+                <div class="box_btn text-center mt-5 me-5">
+                    <button class="btn btn-outline-info mx-4">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        Explore Destinations</button>
+                    <button class="btn btn-outline-light">
+                        <i class="fa-solid fa-user my-1 mx-1"></i>
+
+                        Get Started</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container my-4">
+            <div class="row justify-content-evenly p-4">
+
+                <div class="demo col-md-3 text-center bg-white shadow-lg rounded-4 ">
+                    <i class="fa-solid fa-magnifying-glass fs-1 p-3"></i>
+                    <h3>Discover Destinations</h3>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit sit deserunt velit officia amet,
+                </div>
+                <div class="demo col-md-3 text-center bg-white shadow-lg rounded-4">
+                    <i class="fa-solid fa-calendar-days fs-1 py-3"></i>
+                    <h3>Weather info</h3>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit sit deserunt velit officia amet,
+                </div>
+                <div class="demo col-md-3 text-center bg-white shadow-lg rounded-4 p-3">
+                    <i class="fa-solid fa-share-nodes fs-1"></i>
+                    <h3>Share &Collaborate </h3>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit sit deserunt velit officia amet,
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container bg-white rounded-4 mb-5 pb-5 ">
+            <div class="dox_icon d-flex justify-content-center pt-4 ">
+                <i class="fa-solid fa-star fs-1"></i>
+                <h1>Featured Destinations</h1>
+            </div>
+            <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias pariatur aliquam
+                asperiores vero nostrum est! Quaerat vero omnis accusamus illum.</p>
+            <div class="row justify-content-evenly py-3" id="data">
+
+
+            </div>
+
+        </div>
+
+
+        <div class="container rounded-3 text-center overflow-hidden bg-white">
+            <div class="dox_icon d-flex justify-content-center pt-4">
+                <i class="fa-solid fa-passport fs-1 px-1"></i>
+                <h1>Travel statistics</h1>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <div class="row">
+                <div class="col-md-3">
+                    <h1 class="text_color">+6</h1>
+                    <p>Destinations</p>
+                </div>
+                <div class="col-md-3">
+                    <h1 class="text_color">+2</h1>
+                    <p>Active Users</p>
+                </div>
+                <div class="col-md-3">
+                    <h1 class="text_color">+8</h1>
+                    <p>Trips Planned</p>
+                </div>
+                <div class="col-md-3">
+                    <h1 class="text_color">+10</h1>
+                    <p>User Ratign</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container rounded-3 text-center overflow-hidden color_web my-5 p-4 text-white">
+            <div class="dox_icon d-flex justify-content-center pt-4">
+                <i class="fa-solid fa-rocket fa-2xl my-4"></i>
+                <h1>Ready to Start your journey?</h1>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            <div class="box_btn text-center mt-5 me-5">
+                <button class="btn btn-outline-light mx-4">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    Browse Destinations</button>
+                <button class="btn btn-outline-light">
+                    <i class="fa-solid fa-user my-1 mx-1"></i>
+
+                    Create Account</button>
+            </div>
+        </div>
+
+    </main>
+    <script src="./Js/home.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

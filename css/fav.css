@@ -1,0 +1,228 @@
+body {
+      background: linear-gradient(135deg, #6c63ff 0%, #9a82ff 100%);
+      min-height: 100vh;
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* Navbar override */
+    nav
+{
+}
+nav .box i
+{
+    color: white;
+}
+.navbar-brand {
+
+    color: white;
+
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color:white;
+}
+
+    .btn-outline-light {
+      border-color: #fff;
+    }
+
+    .btn-outline-light:hover {
+      background-color: #6c63ff;
+      border-color: #6c63ff;
+      color: #fff;
+    }
+
+    /* Dropdown user button */
+    .btn-user {
+      background: rgba(255 255 255 / 0.15);
+      color: #fff;
+      border: none;
+    }
+
+    .btn-user:hover,
+    .btn-user:focus {
+      background: rgba(255 255 255 / 0.3);
+      color: #fff;
+    }
+
+    /* Main header */
+    .main-header {
+      text-align: center;
+      padding: 3rem 1rem 4rem 1rem;
+    }
+
+    .main-header h1 {
+      font-weight: 700;
+      font-size: 2.75rem;
+      margin-bottom: 0.5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .main-header h1 > svg {
+      fill: #fff;
+      width: 32px;
+      height: 32px;
+    }
+
+    .main-header p {
+      font-weight: 400;
+      font-size: 1.125rem;
+      color: #e2dfffcc;
+      margin: 0 auto;
+      max-width: 480px;
+    }
+
+    /* Favorites section */
+    .favorites-container {
+      background: #f8f9fa;
+      border-radius: 0.75rem;
+      padding: 2rem 2rem 3rem 2rem;
+      max-width: 1100px;
+      margin: 0 auto 3rem auto;
+      color: #333;
+      box-shadow: 0 0 12px rgb(54 54 54 / 0.15);
+    }
+
+    .favorites-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #444;
+    }
+
+    .btn-clear-all {
+      border-radius: 0.5rem;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+
+    .btn-clear-all svg {
+      margin-right: 0.3rem;
+    }
+
+    /* Cards */
+    .card {
+      border-radius: 0.75rem;
+      box-shadow: 0 1px 8px rgb(54 54 54 / 0.15);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .card-img-top {
+      object-fit: cover;
+      height: 160px;
+    }
+
+    .btn-remove {
+      position: absolute;
+      top: 0.6rem;
+      right: 0.6rem;
+      background: rgba(220, 53, 69, 0.9);
+      border: none;
+      border-radius: 50%;
+      width: 28px;
+      height: 28px;
+      font-size: 20px;
+      line-height: 1;
+      color: #fff;
+      cursor: pointer;
+      transition: background-color 0.25s ease-in-out;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      z-index: 5;
+    }
+
+    .btn-remove:hover {
+      background: rgba(220, 53, 69, 1);
+    }
+
+    /* Card body text truncation */
+    .card-text {
+      font-size: 0.9rem;
+      line-height: 1.3;
+      height: 58px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* Card footer with badges and date */
+    .card-footer {
+      background-color: transparent;
+      border-top: none;
+      padding-top: 0.75rem;
+      padding-bottom: 0.5rem;
+      font-size: 0.85rem;
+      color: #555;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.25rem 1rem;
+    }
+
+    .badge-category {
+      user-select: none;
+      background-color: #6c63ff;
+      color: white;
+      font-weight: 600;
+      font-size: 0.75rem;
+      padding: 0.25rem 0.5rem;
+      border-radius: 0.5rem;
+      text-transform: capitalize;
+      flex-shrink: 0;
+    }
+
+    .destination-label {
+      display: flex;
+      align-items: center;
+      gap: 0.125rem;
+      color: #444;
+    }
+
+    .destination-label svg {
+      fill: #6c63ff;
+      width: 16px;
+      height: 16px;
+    }
+
+    /* Card button (view) */
+    .btn-view {
+      background-color: #6c63ff;
+      color: white;
+      border-radius: 0.5rem;
+      font-weight: 600;
+      font-size: 0.9rem;
+      padding: 0.325rem 1rem;
+      border: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-view:hover,
+    .btn-view:focus {
+      background-color: #574fed;
+      color: white;
+    }
+
+    /* Responsive grid */
+    @media (min-width: 576px) {
+      .favorites-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 1.5rem;
+      }
+    }
+
+    /* Empty state styles */
+    .empty-state {
+      color: #666;
+      font-weight: 600;
+      text-align: center;
+      padding: 5rem 0 4rem 0;
+    }

@@ -1,0 +1,57 @@
+
+body
+{
+    background-color:#b518fece;
+}
+nav
+{
+    background:linear-gradient(45deg,#b518fece,rgb(171, 171, 171));
+}
+nav .box i
+{
+    color: white;
+}
+.navbar-brand {
+
+    color: white;
+
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color:white;
+}
+.box
+{
+    transition: all 1s;
+}
+.box:hover
+{
+    transform: scale(1.1); 
+        color: #b518fe;
+
+}
+.demo
+{
+    transition: all 1s;
+}
+.demo:hover
+{
+    transform: scale(1.1); 
+        color: #b518fe;
+
+}
+.box_image
+{
+    background-image: url("./../pexels-creative-vix-9754.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 90vh;
+}
+.color_web
+{
+    background-color: #982bfe98;
+}
+.text_color
+{
+    color: #b518fe;
+}
